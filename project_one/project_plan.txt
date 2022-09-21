@@ -1,1 +1,19 @@
+Project Instructions: Write your own program using if, elif, and else! 
+
 Project Ideas
+
+1. National Park Questiionnaire
+    National Park Options: Yosemite, Zion, Wind Cave, Virgin Islands, Acadia
+        Yosemite --> california, west coast, half dome, fire waterfall
+        Zion --> lush valley in desert canyon, large and small canyons, diverse terrain
+        Wind Cave --> cave breathing, long connecting caves
+        Virgin Islands --> caribbean, island life, decently priced flight
+        Acadia --> northeast, mountain peaks, view of the atlantic ocean, bayside town
+
+2. Dream Vacation Questiionnaire: season, activity, language, flying (assuming audience is already in the us)
+
+3. Pokemon Starter Helper : You're starting a new adventure on pokemon gold! What starter should you pick?
+    Starters:
+        Cyndaquil - Fire type (Medium)
+        Totodile - Water type (Easy)
+        Chikorita - Grass type (Hard)

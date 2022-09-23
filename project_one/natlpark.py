@@ -9,7 +9,14 @@ def main():
 
     # create a list that will contain all of the possible answers
     # consider turning into a dictionary with the park name as key, and brief description as value (?)
-    parks = ["Yosemite National Park", "Zion National Park", "Wind Cave National Park", "Virgin Islands National Park"]
+    
+    # list version
+    parks = ["Yosemite National Park", "Zion National Park", "Wind Cave National Park", "Virgin Islands National Park", "Acadia National Park"]
+
+    # dictionary version
+    parks_dict = {}
+
+    # while loop around inputs 
 
     # Q1: What is your favorite season? (winter, summer, spring, autumn)
 
@@ -19,7 +26,7 @@ def main():
 
     # Q4:
 
-
+    # conditionals for variables
 
 
 

@@ -1,5 +1,9 @@
 Project Instructions: Write your own program using if, elif, and else! 
 
+Requirements:
+- at least one while loop
+- AS BEST YOU'RE ABLE, control for user errors (suggested: methods, try/except, while loop)
+
 Project Ideas
 
 1. National Park Questiionnaire

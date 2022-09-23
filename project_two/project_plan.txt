@@ -1,0 +1,6 @@
+Project Instructions: Your challenge is to (either solo or part of a group) develop additional features into the RPG script that Jason demonstrated to you.
+
+Requirements:
+- implement at least 3 significant changes to the code.
+- Comment your code well!
+- Follow PEP8 standards where appropriate. Use """ multi-line doc strings""" at the top of your module and all functions to announce their purpose. Cite the names of who wrote that code.

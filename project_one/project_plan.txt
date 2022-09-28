@@ -8,11 +8,11 @@ Project Ideas
 
 1. National Park Questiionnaire
     National Park Options: Yosemite, Zion, Wind Cave, Virgin Islands, Acadia
-        Yosemite --> california, west coast, half dome, fire waterfall
-        Zion --> lush valley in desert canyon, large and small canyons, diverse terrain
-        Wind Cave --> cave breathing, long connecting caves
-        Virgin Islands --> caribbean, island life, decently priced flight
-        Acadia --> northeast, mountain peaks, view of the atlantic ocean, bayside town
+        Yosemite --> california, west coast, half dome, fire waterfall, quiet winter through spring
+        Zion --> lush valley in desert canyon, large and small canyons, diverse terrain, spring and fall
+        Wind Cave --> cave breathing, long connecting caves, summer
+        Virgin Islands --> caribbean, island life, decently priced flight, spring
+        Acadia --> northeast, mountain peaks, view of the atlantic ocean, bayside town, fall
 
 2. Dream Vacation Questiionnaire: season, activity, language, flying (assuming audience is already in the us)
 

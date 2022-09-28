@@ -58,47 +58,49 @@ rooms = {
     'Hall': {
         'desc': 'The wind howls slightly from holes in the floor boards...',
         'south': 'Kitchen',
-        'east': 'Dining Room'
+        'east': 'Dining Room',
+        'north': 'Den',
+        'west': 'Foyer'
     },
     'Kitchen': {
         'desc': 'Granite counters, stainless steel appliances, and a full pantry. A nice place to camp and plot',
         'north': 'Hall',
     },
     'Laundry Room': {
-        'desc': '',
+        'desc': 'The washer looks full of clothes that may have been there for a while...Best not to open it.',
         'west': 'Dining Room'
     },
     'Living Room': {
-        'desc': '',
+        'desc': 'The furniture is minimal, with DEEP scratches in the flooring.',
         'south': 'Dining Room',
         'item': 'monster'
     },
     'Master Bathroom': {
-        'desc': '',
+        'desc': 'A bearclaw tub sits in the center of the room, surrounded by hundreds of candles.',
         'east': 'Master Bedroom'
     },
     'Master Bedroom': {
-        'desc': '',
+        'desc': 'A decadent room with odd paintings and a color scheme that reminds you of spring rain.',
         'north': 'Roof',
         'south': 'Patio',
         'west': 'Master Bathroom',
         'east': 'Upstairs Hall'
     },
     'Patio': {
-        'desc': '',
+        'desc': 'You see a monster roaming the lawn below. Best not to escape through the front door...',
         'north': 'Master Bedroom',
         'item': 'potion'
     },
     'Roof': {
-        'desc': '',
+        'desc': 'What are you doing up HERE?',
         'south': 'Master Bedroom'
     },
     'Secret Room': {
-        'desc': '',
+        'desc': 'This is where your mission ends...but do you have the key, potion, and coordinates?',
         'west': 'Den'
     },
     'Upstairs Hall': {
-        'desc': '',
+        'desc': 'It\'s fairly quiet up here...You should be safe for now.',
         'north': 'Attic',
         'east': 'Children\'s Room',
         'south': 'Foyer',

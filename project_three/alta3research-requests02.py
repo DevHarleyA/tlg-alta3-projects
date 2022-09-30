@@ -14,13 +14,19 @@ from pprint import pprint
 # import yaml
 import yaml
 
-# capture the URL endpoint 
-json_url = "http://127.0.0.1:3000/all"
+# define script functions within main() function
+def main():
+    # capture the URL endpoint 
+    json_url = "http://127.0.0.1:3000/all"
 
-# request the data from the server and convert to json
-response = requests.get(json_url).json()
+    # request the data from the server and convert to json
+    response = requests.get(json_url).json()
 
-# convert new python dict to yaml string
-yamlresponse = yaml.dump(response, sort_keys=False)
+    # convert new python dict to yaml string
+    yamlresponse = yaml.dump(response, sort_keys=False, explicit_start=True, default_flow_style=False)
 
-pprint(yamlresponse)
+    # print out yaml in the console
+    pprint(yamlresponse)
+
+# call the function when the script is run
+main()

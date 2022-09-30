@@ -5,7 +5,7 @@ Flask Library Proficiency Assignment
 Tasks:
 - at least two endpoints
 - at least one of your endpoints should return JSON
-- one additional feature (chose jinja2 logic)
+- one additional feature (choice: jinja2 logic)
 """
 
 # import Flask: Web application framework
@@ -104,6 +104,7 @@ def home():
     # Sends back the greeting page
     return render_template("index.html")
 
+# endpoint to return seven wonders of the world
 @app.route("/sevenwonders")
 def seven_wonders():
     wonders = []
@@ -113,7 +114,7 @@ def seven_wonders():
 
     return render_template("seven.html", list = wonders)
 
-
+# endpoint to return seven natural wonders of the world
 @app.route("/naturalwonders")
 def natural_wonders():
     wonders = []

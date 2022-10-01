@@ -55,7 +55,7 @@ def main():
 
     # Q1: What is your favorite season? (winter, summer, spring, fall)
     while True:
-        season = input("What is your favorite season?:\n(a) spring\n(b) summer\n(c) fall\n(d) winter\nYour answer: ")
+        season = input("What is your favorite season?:\n(a) spring\n(b) summer\n(c) fall\n(d) winter\nYour answer: ").lower()
         
         # if the user answers spring, add spring to responses list and move to next question
         if season == 'a':
@@ -83,7 +83,7 @@ def main():
  
     # Q2: Are you afraid of Bears? (Y/N)
     while True:     
-        bears = input("\nAre you afraid of bears?\n(a) Hell Yeah!\n(b) Nah, bring it on!\nYour answer:")
+        bears = input("\nAre you afraid of bears?\n(a) Hell Yeah!\n(b) Nah, bring it on!\nYour answer:").lower()
 
         # if the user asnewers yes, add no bears to responses list and move to next question
         if bears == 'a':
@@ -101,7 +101,7 @@ def main():
 
     # Q3: Do you prefer the East Coast or the West Coast?
     while True:
-        coast = input("\nDo you prefer the west coast or east coast?\n(a) East\n(b) West\nYour answer:")
+        coast = input("\nDo you prefer the west coast or east coast?\n(a) East\n(b) West\nYour answer:").lower()
 
         # if the answer is a, add east to responses and move to next question
         if coast == 'a':
@@ -119,7 +119,7 @@ def main():
     
     # Q4: Do you want to see mountains, hills, or canyons?
     while True:
-        terrain = input("\nWhat do you want to see?\n(a) mountains\n(b) hills\n(c) canyons\nYour answer:")
+        terrain = input("\nWhat do you want to see?\n(a) mountains\n(b) hills\n(c) canyons\nYour answer:").lower()
 
         # if the user enters a, add mountains to responses list and move to next question
         if terrain == 'a':
@@ -142,7 +142,7 @@ def main():
 
     # Q5: Do you like plaid? (Lumberjack Reference)
     while True:
-        plaid = input("\nDo you like plaid?\n(a) yes\n(b) no\nYour answer:")
+        plaid = input("\nDo you like plaid?\n(a) yes\n(b) no\nYour answer:").lower()
 
         # if user enters a, then add plaid_yes to responses list and move to next question
         if plaid == 'a':

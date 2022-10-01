@@ -164,10 +164,12 @@ def main():
     # pull in global variables to use in function
     global currentRoom, inventory, rooms, moves
 
+    # show the instructions at game initiation
     showInstructions()
 
     # breaking this while loop means the game is over
     while True:
+        # show the status of the player
         showStatus()
 
         # the player MUST type something in
@@ -226,5 +228,5 @@ def main():
             print(f"You made {moves} moves in the game!")
             break
 
-
+# call main function
 main()

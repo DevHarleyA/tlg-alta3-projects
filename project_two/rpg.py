@@ -2,7 +2,7 @@
 
 """Driving a simple game framework with
    a dictionary object | Alta3 Research & Alexandra Harley
-   Features added: additional rooms, moves counter, room descriptions with available directions, mystical coat rack (to fight monsters)"""
+   Features added: additional rooms, moves counter, room descriptions with available directions, mystical coat rack (to survive monsters)"""
 
 # global variables to be modified in main() function
 # an inventory, which is initially empty
